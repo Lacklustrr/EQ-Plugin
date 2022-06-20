@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EQ Plugin - Standalone Plugin", "EQ Plugin_StandalonePlugin.vcxproj", "{AF9F0316-10CE-C935-FDDC-659FB1B98B35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5} = {86A426E9-F74B-2D84-11C5-9E4BF58608D5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EQ Plugin - VST3", "EQ Plugin_VST3.vcxproj", "{8F2ED136-88A7-4D44-DE14-66E754FFE67D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5} = {86A426E9-F74B-2D84-11C5-9E4BF58608D5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EQ Plugin - Shared Code", "EQ Plugin_SharedCode.vcxproj", "{86A426E9-F74B-2D84-11C5-9E4BF58608D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2ED136-88A7-4D44-DE14-66E754FFE67D}.Debug|x64.ActiveCfg = Debug|x64
+		{8F2ED136-88A7-4D44-DE14-66E754FFE67D}.Debug|x64.Build.0 = Debug|x64
+		{8F2ED136-88A7-4D44-DE14-66E754FFE67D}.Release|x64.ActiveCfg = Release|x64
+		{8F2ED136-88A7-4D44-DE14-66E754FFE67D}.Release|x64.Build.0 = Release|x64
+		{AF9F0316-10CE-C935-FDDC-659FB1B98B35}.Debug|x64.ActiveCfg = Debug|x64
+		{AF9F0316-10CE-C935-FDDC-659FB1B98B35}.Debug|x64.Build.0 = Debug|x64
+		{AF9F0316-10CE-C935-FDDC-659FB1B98B35}.Release|x64.ActiveCfg = Release|x64
+		{AF9F0316-10CE-C935-FDDC-659FB1B98B35}.Release|x64.Build.0 = Release|x64
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5}.Debug|x64.ActiveCfg = Debug|x64
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5}.Debug|x64.Build.0 = Debug|x64
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5}.Release|x64.ActiveCfg = Release|x64
+		{86A426E9-F74B-2D84-11C5-9E4BF58608D5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
